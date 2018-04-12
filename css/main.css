@@ -9,6 +9,10 @@ header {
 
 .nav {
   display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: #fdeb3f;
 }
 
 .nav-check {
@@ -26,11 +30,32 @@ header {
   margin-right: .5rem;
 }
 
-.nav-label img {
+.nav-open,
+.nav-close {
   display: block;
   width: 100%;
 }
 
 .nav-check:checked ~ .nav {
   display: block;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+.btn-nav {
+  background-color: #000;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  border-radius: 10px;
 }
