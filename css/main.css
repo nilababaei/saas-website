@@ -1,0 +1,36 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: relative;
+  background-color: #fdeb3f;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-check {
+  position: absolute;
+  top: -10em;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  right: 0;
+  bottom: 0;
+  margin-bottom: .8rem;
+  margin-right: .5rem;
+}
+
+.nav-label img {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}

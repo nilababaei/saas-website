@@ -833,12 +833,9 @@ select {
   margin-right: .3em;
   position: relative;
   vertical-align: middle;
-  top: -.1em;
-  width: 1.8em;
 
   background-color: #fff;
   background-size: cover;
-  border: 2px solid #666;
 
   line-height: inherit;
 }
