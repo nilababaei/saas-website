@@ -13,6 +13,7 @@ header {
   right: 0;
   top: 100%;
   background-color: #fdeb3f;
+  z-index: 200;
 }
 
 .nav-check {
@@ -58,4 +59,66 @@ header {
   list-style-type: none;
   text-decoration: none;
   border-radius: 10px;
+}
+
+.btn {
+  background-color: #fdeb3f;
+  color: #000;
+  border-color: #fdeb3f;
+  border-radius: 20px;
+}
+
+.banner {
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 20px;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+p {
+  font-weight: lighter;
+}
+
+.card {
+  background-color: #000;
+  color: #fff;
+  border-radius: 40px;
+  min-height: 8rem;
+}
+
+.card-two {
+  background-color: #fdeb3f;
+  border-color: #000;
+  border-width: 10px;
+  border-style: solid;
+  color: #000;
+  min-height: 8rem;
+}
+
+.card-three {
+  background-color: #fdeb3f;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #000;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-class {
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
 }
