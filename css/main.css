@@ -104,12 +104,6 @@ p {
 
 .card-three {
   background-color: #fdeb3f;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #000;
-  border-bottom: 0;
-  border-left: 0;
-  border-right: 0;
 }
 
 footer {
@@ -154,6 +148,54 @@ a:focus {
 
 table {
   border-collapse: collapse;
+}
+
+.card-four {
+  background-color: #fdeb3f;
+}
+
+.card-f {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #000;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  background-color: #fdeb3f;
+}
+
+.card-five {
+  max-width: 20em;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: #fdeb3f;
+}
+
+.btn-nav:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.card-c {
+  background-color: #fdeb3f;
+}
+
+.text-e {
+  font-weight: bold;
+}
+
+.single-first {
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+}
+
+.single {
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
 }
 
 @media only screen and (min-width: 48em) {
