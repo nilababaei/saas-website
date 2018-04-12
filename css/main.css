@@ -184,6 +184,7 @@ a:hover {
 
 .text-e {
   font-weight: bold;
+  max-width: 40em;
 }
 
 .single-first {
@@ -196,10 +197,4 @@ a:hover {
   background-color: #000;
   color: #fff;
   border-radius: 20px;
-}
-
-@media only screen and (min-width: 48em) {
-  .card-first {
-
-  }
 }
