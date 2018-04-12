@@ -12,6 +12,11 @@
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
   <header class="grid relative island-1-2">
     <h1 class="hidden">Home</h1>
 
@@ -25,7 +30,7 @@
         <img class="img-flex island-1-8 nav-open" src="images/toggle-open.svg" alt="Open Navigation">
         <img class="img-flex island-1-8 nav-close" src="images/toggle-close.svg" alt="Close Navigation">
       </label>
-      <nav class="nav text-center">
+      <nav class="nav text-center" id="nav" tabindex="0" role="navigation">
         <ul class="first-list list-group">
           <li class="island"><a class="btn-nav island-1-2" href="tour.html">Products</a></li>
           <li class="island"><a class="btn-nav island-1-2" href="pricing.html">Pricing</a></li>
@@ -35,7 +40,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <div class="relative">
       <img class="img-flex image-tag-one" src="images/homepage-banner.jpg" alt="#">
       <div class="absolute pin-lc island-1-2">
@@ -47,7 +52,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="card-color">
       <section class="grid island-1-2">
         <div class="unit xs-1 s-1 m-1-2 l-1-2 card island push-none card-first">
           <h3 class="kilo push-1-4">What is a Growth Platform?</h3>
@@ -90,7 +95,7 @@
     </div>
   </main>
 
-  <footer class="micro text-center pad-t pad-b">
+  <footer class="footer micro text-center pad-t pad-b" role="contentinfo">
     <div class="pad-b-1-2">
       <small>Copyright © 2018 LunaSphere.com</small>
     </div>
