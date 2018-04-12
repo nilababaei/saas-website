@@ -70,8 +70,7 @@ header {
 
 .banner {
   color: #fff;
-  background-color: rgba(0,0,0,.5);
-  border-radius: 20px;
+  background-color: rgba(0,0,0,.3);
 }
 
 h2 {
@@ -89,8 +88,8 @@ p {
 .card {
   background-color: #000;
   color: #fff;
-  border-radius: 40px;
-  min-height: 8rem;
+  min-height: 9rem;
+  max-height: 9rem;
 }
 
 .card-two {
@@ -99,7 +98,8 @@ p {
   border-width: 10px;
   border-style: solid;
   color: #000;
-  min-height: 8rem;
+  max-height: 9rem;
+  min-height: 9rem;
 }
 
 .card-three {
@@ -121,4 +121,14 @@ footer {
   color: #fff;
   list-style-type: none;
   text-decoration: none;
+}
+
+.image-tag-one {
+  min-height: 15em;
+  max-height: 15em;
+}
+@media only screen and (min-width: 48em) {
+  .card-first {
+
+  }
 }
