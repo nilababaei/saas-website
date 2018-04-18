@@ -73,18 +73,6 @@ header {
   background-color: rgba(0,0,0,.3);
 }
 
-h2 {
-  font-weight: normal;
-}
-
-h3 {
-  font-weight: normal;
-}
-
-p {
-  font-weight: lighter;
-}
-
 .card {
   background-color: #000;
   color: #fff;
@@ -183,7 +171,6 @@ a:hover {
 }
 
 .text-e {
-  font-weight: bold;
   max-width: 40em;
 }
 
