@@ -162,7 +162,7 @@ input, select, textarea {
 }
 
 .banner-simple {
-  background-image: url("../images/homepage-banner.jpg");
+  background-image: url("../images/homepage-banner-copy.jpg");
   background-size: 100% 100%, cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -183,7 +183,7 @@ input, select, textarea {
 }
 
 .banner-two {
-  background-color: none;
+  background-color: transparent;
   color: #000;
   max-width: 35em;
 }
