@@ -24,10 +24,16 @@ header {
   border-radius: 20px;
 }
 
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
 .banner {
   color: #fff;
-  background-color: rgba(0, 0, 0, .3);
   max-width: 35em;
+  margin: 0 auto;
 }
 
 .card {
@@ -43,8 +49,8 @@ header {
   border-width: 10px;
   border-style: solid;
   color: #000;
-  max-height: 9rem;
-  min-height: 9rem;
+  max-height: 15rem;
+  min-height: 12rem;
 }
 
 .card-three {
@@ -60,6 +66,16 @@ footer {
   color: #fff;
   list-style-type: none;
   text-decoration: none;
+}
+
+.footer-class-two {
+  color: #000;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.footer-class-two:hover {
+  color: #fff;
 }
 
 .card-color {
@@ -104,9 +120,14 @@ th, td {
 }
 
 .card-five {
-  max-width: 20em;
+  max-width: 30em;
   margin: 0 auto;
 }
+
+.free {
+  max-width: 30em;
+}
+
 
 a:hover {
   color: #fdeb3f;
@@ -145,6 +166,11 @@ a:hover {
   color: #fff;
 }
 
+.first-boo:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 input, select, textarea {
   background-color: #fdeb3f;
   border-color: #fdeb3f;
@@ -162,21 +188,14 @@ input, select, textarea {
 }
 
 .banner-simple {
-  background-image: url("../images/homepage-banner-copy.jpg");
+  background-image: url("../images/galaxy-infinity-milky-way.jpg");
   background-size: 100% 100%, cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 
 .banner-second {
-  background-image: url("../images/productspage-banner.jpg");
-  background-size: 100% 100%, cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.banner-third {
-  background-image: url("../images/pricingpage-banner.jpg");
+  background-image: url("../images/astronomy-crater-dark.jpg");
   background-size: 100% 100%, cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -186,6 +205,30 @@ input, select, textarea {
   background-color: transparent;
   color: #000;
   max-width: 35em;
+}
+
+.banner-pricing {
+  background-color: #000;
+  color: #fff;
+}
+
+.baa {
+  background-color: #000;
+}
+
+.sign {
+  text-decoration: none;
+  color: #000;
+}
+
+.wall {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bruh {
+  background-color: #fdeb3f;
+  color: #000;
 }
 
 @media only screen and (min-width: 38em) {
