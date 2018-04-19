@@ -7,58 +7,14 @@ header {
   background-color: #fdeb3f;
 }
 
-.nav {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: 100%;
-  background-color: #fdeb3f;
-  z-index: 200;
+.header-p {
+  max-width: 30em;
 }
 
-.nav-check {
-  position: absolute;
-  top: -10em;
-}
-
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-  width: 40px;
-  right: 0;
-  bottom: 0;
-  margin-bottom: .8rem;
-  margin-right: .5rem;
-}
-
-.nav-open,
-.nav-close {
-  display: block;
-  width: 100%;
-}
-
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-close {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-open {
-  display: none;
-}
-
-.nav-check:checked ~ .nav-label .nav-close {
-  display: block;
-}
-
-.btn-nav {
-  background-color: #000;
-  color: #fff;
-  list-style-type: none;
+.nat {
   text-decoration: none;
-  border-radius: 10px;
+  color: #fff;
+  background-color: #000;
 }
 
 .btn {
@@ -71,6 +27,7 @@ header {
 .banner {
   color: #fff;
   background-color: rgba(0, 0, 0, .3);
+  max-width: 35em;
 }
 
 .card {
@@ -105,22 +62,12 @@ footer {
   text-decoration: none;
 }
 
-.image-tag-one {
-  min-height: 15em;
-  max-height: 15em;
-}
-
 .card-color {
   background-color: #000;
 }
 
 a:focus {
   outline: 3px solid #fff;
-  background-color: #fff;
-  color: #000;
-}
-
-.btn-nav:focus {
   background-color: #fff;
   color: #000;
 }
@@ -135,7 +82,11 @@ a:focus {
 }
 
 table {
-  border-collapse: collapse;
+  border: 1px solid #fdeb3f;
+}
+
+th, td {
+  border: 1px solid #fdeb3f;
 }
 
 .card-four {
@@ -161,11 +112,6 @@ a:hover {
   color: #fdeb3f;
 }
 
-.btn-nav:hover {
-  color: #000;
-  background-color: #fff;
-}
-
 .card-c {
   background-color: #fdeb3f;
 }
@@ -186,6 +132,14 @@ a:hover {
   border-radius: 20px;
 }
 
+.equal {
+  min-height: 13em;
+}
+
+.equal-two {
+  min-height: 20em;
+}
+
 .frm {
   background-color: #000;
   color: #fff;
@@ -202,10 +156,46 @@ input, select, textarea {
   background-color: #000;
 }
 
-@media only screen and (min-width: 60em) {
+.srch {
+  border-color: #000;
+  border-radius: 0;
+}
 
-  .psh {
-    padding-right: .5rem;
+.banner-simple {
+  background-image: url("../images/homepage-banner.jpg");
+  background-size: 100% 100%, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner-second {
+  background-image: url("../images/productspage-banner.jpg");
+  background-size: 100% 100%, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner-third {
+  background-image: url("../images/pricingpage-banner.jpg");
+  background-size: 100% 100%, cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.banner-two {
+  background-color: none;
+  color: #000;
+  max-width: 35em;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .unique {
+    padding-right: 1.5rem;
+  }
+
+  .blah {
+    text-align: right;
   }
 
 }
